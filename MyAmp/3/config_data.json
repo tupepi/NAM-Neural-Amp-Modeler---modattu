@@ -1,0 +1,21 @@
+{
+    "_notes": [
+        "Dev note: Ensure that tests/test_bin/test_train/test_main.py's data is ",
+        "representative of this!"
+    ],
+    "train": {
+        "start": null,
+        "stop": -432000,
+        "ny": 8192
+    },
+    "validation": {
+        "start": -432000,
+        "stop": null,
+        "ny": null
+    },
+    "common": {
+        "x_path": "C:\\Users\\tuukk\\Desktop\\gradu\\input\\input-3.wav",
+        "y_path": "C:\\Users\\tuukk\\Desktop\\gradu\\output\\output-3.wav",
+        "delay": 0
+    }
+}
