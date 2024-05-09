@@ -12,8 +12,8 @@
     "delay": 0
   },
   "train": {
-    "x_path": "C:\\Users\\tuukk\\Desktop\\gradu\\input\\input-1.wav",
-    "y_path": "C:\\Users\\tuukk\\Desktop\\gradu\\output\\output-1.wav",
+    "x_path": "C:\\Users\\tuukk\\Desktop\\gradu\\uusi_data_ei_validointia\\input-1.wav",
+    "y_path": "C:\\Users\\tuukk\\Desktop\\gradu\\uusi_data_ei_validointia\\output-1.wav",
     "ny": 8192
   },
   "input": "input1"

@@ -131,4 +131,9 @@ dmypy.json
 .pyre/
 
 # Training outputs
-./bin/train/outputs/
+bin/train/outputs/
+bin/train/output_audio/
+bin/train/output_audio2/
+bin/train/*.wav
+*.bat
+MyAmp/

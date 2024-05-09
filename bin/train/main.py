@@ -239,10 +239,10 @@ def main_inner(
     model.net.export(outdir)
 
     ## Kirjoitetaan äänitiedosto
-    source = wav_to_tensor("bin/train/rock-input-test.wav")
+    source = wav_to_tensor("bin/train/metal-rock.wav")
     output = model(source)
     outdir_wav = ensure_outdir(Path("bin/train/output_audio",data_config["input"]))
-    tensor_to_wav(output, Path(outdir_wav,name_model(learning_config, data_config))+".wav")
+    tensor_to_wav(output, Path(outdir_wav,name_model(learning_config, data_config)+".wav"))
 
     
     meta = {
