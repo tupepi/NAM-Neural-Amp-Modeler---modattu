@@ -203,7 +203,7 @@ def main_inner(
     import time
 
     start_train = time.time()
-
+    print(model)
     with filter_warnings("ignore", category=PossibleUserWarning):
         trainer.fit(
             model,
